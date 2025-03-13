@@ -12,7 +12,6 @@ function create_task_btn(){
     newDelete.id = `deletebtn${checkbox_num + 1}`;
     newDelete.innerHTML = "刪除";
     newDelete.onclick = function(event){
-        window.alert(event.target.id);
         document.getElementById(event.target.id).parentElement.remove();
     };
     
