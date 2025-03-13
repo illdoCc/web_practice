@@ -19,3 +19,9 @@ h1{
     bottom: 0px;
     right: 200px;
 }
+
+#usagi {
+  position: fixed;
+  bottom: 0px;
+  right: 400px;
+}
